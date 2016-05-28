@@ -1,5 +1,5 @@
 
-var CommentBox = React.createClass({
+var helloWorld = React.createClass({
   render: function() {
     return (
      React.createElement('div', null,
@@ -9,6 +9,6 @@ var CommentBox = React.createClass({
   }
 });
 ReactDOM.render(
-  React.createElement(CommentBox, null),
+  React.createElement(helloWorld, null),
   document.getElementById('content')
 );
